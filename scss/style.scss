@@ -267,17 +267,17 @@ a{
       border-bottom: 1px dashed $color_dark;
       position: relative;
       @include ie-browser(){
-        padding-bottom: 9px;
-        padding-top: 14px;
+        padding-bottom: 7px;
+        padding-top: 12px;
       }
       p{
         margin: 0;
-        width: 110%;
+        width: 100%;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
         @include ie-browser(){
-          line-height: 115%;
+          line-height: 100%;
         }
         span{
           display: inline-block;
@@ -412,12 +412,6 @@ a{
   color: $color_dark_blue;
   font-weight: bold;
   @include text-shadow-multiple-dark($color_white);
-  span{
-    font-size: 40px;
-    margin: 0 20px;
-    position: relative;
-    top: 2px;
-  }
 }
 .styled--text_banner_dark{
   font-size: 20px;
@@ -470,13 +464,6 @@ a{
     }
   }
 }
-.work--section{
-  margin-bottom: 8em;
-  .work--section_description{
-    padding: 20px 15px 0;
-  }
-}
-
 
 // archive page
 .event--post{
@@ -486,9 +473,6 @@ a{
 }
 .event--archive_list{
   font-size: 18px;
-  &:hover{
-    opacity: 0.75;
-  }
   a{
     color: $color_dark;
   }
@@ -653,7 +637,6 @@ a{
 
 // modules
 .breadcrumb{
-  padding: 15px;
   background-color: transparent;
   font-size: 12px;
   .container--inner{
@@ -664,7 +647,6 @@ a{
       display: inline;
       a{
         padding-right: 10px;
-        text-decoration: underline;
       }
       a:after{
         content: "\f105";
@@ -905,11 +887,4 @@ a{
 }
 .date--links{
   margin-top: 20px;
-}
-.alm-btn-wrap{
-  button{
-    &:hover{
-      opacity: 0.75;
-    }
-  }
 }

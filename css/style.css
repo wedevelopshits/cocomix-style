@@ -269,24 +269,24 @@ a img:hover {
     position: relative; }
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
       .event--lists ul li {
-        padding-bottom: 9px;
-        padding-top: 14px; } }
+        padding-bottom: 7px;
+        padding-top: 12px; } }
     @media screen and (min-width: 0\0) {
       .event--lists ul li {
-        padding-bottom: 9px;
-        padding-top: 14px; } }
+        padding-bottom: 7px;
+        padding-top: 12px; } }
     .event--lists ul li p {
       margin: 0;
-      width: 110%;
+      width: 100%;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
       @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         .event--lists ul li p {
-          line-height: 115%; } }
+          line-height: 100%; } }
       @media screen and (min-width: 0\0) {
         .event--lists ul li p {
-          line-height: 115%; } }
+          line-height: 100%; } }
       .event--lists ul li p span {
         display: inline-block;
         width: 110px; }
@@ -418,11 +418,6 @@ a img:hover {
   color: #125e9f;
   font-weight: bold;
   text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff; }
-  .styled--text_banner span {
-    font-size: 40px;
-    margin: 0 20px;
-    position: relative;
-    top: 2px; }
 
 .styled--text_banner_dark {
   font-size: 20px;
@@ -462,19 +457,12 @@ a img:hover {
       font-size: 20px;
       margin-bottom: 5px; }
 
-.work--section {
-  margin-bottom: 8em; }
-  .work--section .work--section_description {
-    padding: 20px 15px 0; }
-
 .event--post {
   height: 335px;
   overflow: hidden; }
 
 .event--archive_list {
   font-size: 18px; }
-  .event--archive_list:hover {
-    opacity: 0.75; }
   .event--archive_list a {
     color: #262626; }
   .event--archive_list a:hover,
@@ -610,7 +598,6 @@ a img:hover {
     line-height: 2; }
 
 .breadcrumb {
-  padding: 15px;
   background-color: transparent;
   font-size: 12px; }
   .breadcrumb .container--inner {
@@ -620,8 +607,7 @@ a img:hover {
     .breadcrumb .container--inner li {
       display: inline; }
       .breadcrumb .container--inner li a {
-        padding-right: 10px;
-        text-decoration: underline; }
+        padding-right: 10px; }
       .breadcrumb .container--inner li a:after {
         content: "\f105";
         display: inline-block;
@@ -839,8 +825,5 @@ a img:hover {
 
 .date--links {
   margin-top: 20px; }
-
-.alm-btn-wrap button:hover {
-  opacity: 0.75; }
 
 /*# sourceMappingURL=style.css.map */
