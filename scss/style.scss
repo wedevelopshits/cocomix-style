@@ -653,7 +653,7 @@ a{
 
 // modules
 .breadcrumb{
-  padding: 12px 15px;
+  padding: 15px;
   background-color: transparent;
   font-size: 12px;
   .container--inner{
@@ -664,6 +664,7 @@ a{
       display: inline;
       a{
         padding-right: 10px;
+        text-decoration: underline;
       }
       a:after{
         content: "\f105";
@@ -904,4 +905,11 @@ a{
 }
 .date--links{
   margin-top: 20px;
+}
+.alm-btn-wrap{
+  button{
+    &:hover{
+      opacity: 0.75;
+    }
+  }
 }
