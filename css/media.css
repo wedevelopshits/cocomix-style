@@ -50,7 +50,7 @@
 
   .date--links .btn--links {
     width: 100%;
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
 
   .img--list {
     margin-bottom: 15px; }
@@ -110,6 +110,9 @@
         width: 100%; }
 
   .foot--address_text .foot--address {
-    margin-bottom: 8px; } }
+    margin-bottom: 8px; }
+
+  .footer--socials .footer--socials_content {
+    padding-bottom: 65px; } }
 
 /*# sourceMappingURL=media.css.map */
