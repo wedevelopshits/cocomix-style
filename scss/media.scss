@@ -1,6 +1,13 @@
 .sp--view{
   display: none !important;
 }
+@media screen and (max-width: 1024px) {
+  .footer--socials{
+    .footer--socials_content{
+      padding-bottom: 70px;
+    }
+  }
+}
 @media screen and (max-width: 768px) {
 
 }
@@ -135,7 +142,7 @@
     padding: 0 20px;
   }
   .foot--logo{
-    min-height: 140px;
+    min-height: 144px;
   }
   .foot--button{
     padding: 10px 5px;
