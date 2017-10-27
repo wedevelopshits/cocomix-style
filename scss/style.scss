@@ -100,6 +100,7 @@ a{
   text-align: center;
   margin-top: 90px;
   a{
+    display: inline-block;
     img{
       &:hover{
         opacity: 0.75;

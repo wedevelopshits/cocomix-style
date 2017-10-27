@@ -135,8 +135,10 @@ a img:hover {
 .contact--btn {
   text-align: center;
   margin-top: 90px; }
-  .contact--btn a img:hover {
-    opacity: 0.75; }
+  .contact--btn a {
+    display: inline-block; }
+    .contact--btn a img:hover {
+      opacity: 0.75; }
 
 .header--contact {
   float: right;
