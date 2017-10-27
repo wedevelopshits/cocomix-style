@@ -467,6 +467,12 @@ a img:hover {
   .work--section .work--section_description {
     padding: 20px 15px 0; }
 
+.flow--section_inner {
+  padding-left: 3em; }
+  .flow--section_inner:before {
+    background-image: "../images/flow_circle.png";
+    background-position: top; }
+
 .event--post {
   height: 335px;
   overflow: hidden; }
