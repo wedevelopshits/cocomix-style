@@ -418,6 +418,11 @@ a img:hover {
   color: #125e9f;
   font-weight: bold;
   text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff; }
+  .styled--text_banner span {
+    font-size: 40px;
+    margin: 0 20px;
+    position: relative;
+    top: 2px; }
 
 .styled--text_banner_dark {
   font-size: 20px;
@@ -456,6 +461,11 @@ a img:hover {
     .interviewers--footer_type .interviewer--footer_section h2 {
       font-size: 20px;
       margin-bottom: 5px; }
+
+.work--section {
+  margin-bottom: 8em; }
+  .work--section .work--section_description {
+    padding: 20px 15px 0; }
 
 .event--post {
   height: 335px;
@@ -825,11 +835,5 @@ a img:hover {
 
 .date--links {
   margin-top: 20px; }
-
-.test {
-  font-size: 12px; }
-
-.test2 {
-  font-size: 12px; }
 
 /*# sourceMappingURL=style.css.map */

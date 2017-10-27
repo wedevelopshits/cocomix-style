@@ -412,6 +412,12 @@ a{
   color: $color_dark_blue;
   font-weight: bold;
   @include text-shadow-multiple-dark($color_white);
+  span{
+   font-size: 40px;
+   margin: 0 20px;
+   position: relative;
+   top: 2px;
+  }
 }
 .styled--text_banner_dark{
   font-size: 20px;
@@ -462,6 +468,12 @@ a{
       font-size: 20px;
       margin-bottom: 5px;
     }
+  }
+}
+.work--section{
+  margin-bottom: 8em;
+  .work--section_description{
+    padding: 20px 15px 0;
   }
 }
 
@@ -887,10 +899,4 @@ a{
 }
 .date--links{
   margin-top: 20px;
-}
-.test{
-  font-size: 12px;
-}
-.test2{
-  font-size: 12px;
 }
