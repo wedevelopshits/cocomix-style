@@ -538,6 +538,11 @@ a{
     border-top-left-radius: 0;
   }
 }
+.last--flow{
+  &:after{
+    border-left: none;
+  }
+}
 
 // archive page
 .event--post{

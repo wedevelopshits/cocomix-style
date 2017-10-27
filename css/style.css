@@ -523,6 +523,9 @@ a img:hover {
   .flow--section .no--border-radius-left {
     border-top-left-radius: 0; }
 
+.last--flow:after {
+  border-left: none; }
+
 .event--post {
   height: 335px;
   overflow: hidden; }
@@ -917,3 +920,5 @@ a img:hover {
 
 .test {
   font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
