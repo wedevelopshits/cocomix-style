@@ -476,12 +476,31 @@ a{
     padding: 20px 15px 0;
   }
 }
-.flow--section_inner{
-  padding-left: 3em;
+.flow--section{
+  padding-left: 5em;
+  position: relative;
   &:before{
     content: "";
     background-image: url('../images/flow_circle.png');
     background-position: top;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -5px;
+    position: absolute;
+  }
+  .flow--section_inner{
+    border: 2px solid $color_dark_blue;
+    @include border-radius(10px);
+    padding: 30px 40px;
+    &:before{
+      width: 0;
+      height: 0;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+      border-left: 60px solid $color_dark_blue;
+    }
   }
 }
 
