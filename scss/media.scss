@@ -53,12 +53,16 @@
       padding-bottom: 15px !important; 
       .new--arrival_list {
         p{
-          width: 100%;
+          width: 65%;
           font-size: 16px;
+          float: right;
         }
         span{
           font-size: 14px !important;
-          bottom: 2px;
+          bottom: unset;
+          top: unset;
+          right: unset;
+          position: relative
         }
       }
     }

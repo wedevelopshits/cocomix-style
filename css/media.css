@@ -39,11 +39,15 @@
   .event-new_arrrival li {
     padding-bottom: 15px !important; }
     .event-new_arrrival li .new--arrival_list p {
-      width: 100%;
-      font-size: 16px; }
+      width: 65%;
+      font-size: 16px;
+      float: right; }
     .event-new_arrrival li .new--arrival_list span {
       font-size: 14px !important;
-      bottom: 2px; }
+      bottom: unset;
+      top: unset;
+      right: unset;
+      position: relative; }
 
   .single--page_navigation {
     margin-bottom: 5em; }
