@@ -662,6 +662,11 @@ a{
       display: inline;
       a{
         padding-right: 10px;
+        color: #125e9f;
+        text-decoration: underline;
+        &:hover{
+          color: #23527c;
+        }
       }
       a:after{
         content: "\f105";
@@ -708,6 +713,9 @@ a{
   li{
     padding: 10px 5px;
     border-bottom: 1px dashed $color_dark;
+    &:hover{
+      opacity: 0.75;
+    }
     .new--arrival_list{
       a,
       a:hover{
@@ -720,6 +728,9 @@ a{
         background-color: $color_gray;
         float: left;
         margin-right: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       p{
         font-size: 14px;
