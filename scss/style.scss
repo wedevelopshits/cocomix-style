@@ -24,6 +24,13 @@ h4:after{
   height: 3px;
   background-color: $color_medium_blue;
 }
+a{
+  img{
+    &:hover{
+      opacity: 0.75;
+    }
+  }
+}
 
 // common style
 .button--show_more{
@@ -33,6 +40,9 @@ h4:after{
   float: right;
   display: inline-block;
   @include border-radius(5px);
+  @include ie-browser(){
+    padding-bottom: 7px;
+  }
 }
 .button--show_more:hover,
 .button--show_more:visited{
@@ -40,6 +50,7 @@ h4:after{
 }
 .button--show_more:hover{
   text-decoration: none;
+  opacity: 0.75;
 }
 .background--cover{
   background-position: center;
@@ -192,6 +203,9 @@ h4:after{
 .section--content{
   margin-bottom: 10em;
 }
+.section--content--top-date{
+  margin-bottom: 70px;
+}
 .section--header{
   text-align: center;
   margin-bottom: 70px;
@@ -228,6 +242,7 @@ h4:after{
   }
   p{
     line-height: 2;
+    margin-bottom: 20px;
   }
 }
 
@@ -246,15 +261,27 @@ h4:after{
   ul{
     list-style-type: none;
     margin: 0;
+    padding-top: 15px;
     li{
       padding: 10px 40px;
       border-bottom: 1px dashed $color_dark;
       position: relative;
+      @include ie-browser(){
+        padding-bottom: 7px;
+        padding-top: 12px;
+      }
       p{
         margin: 0;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        @include ie-browser(){
+          line-height: 100%;
+        }
         span{
           display: inline-block;
-          width: 100px;
+          width: 110px;
         }
         a{
           color: $color_dark;
@@ -273,6 +300,9 @@ h4:after{
       position: absolute;
       left: 25px;
       top: 12px;
+      @include ie-browser(){
+        top: 7px;
+      }
     }
   }
 }
@@ -314,11 +344,23 @@ h4:after{
     font-size: 25px;
     position: relative;
     @include border-radius(10px);
+    &:hover{
+      text-decoration: none;
+      opacity: 0.75;
+    }
+    @include ie-browser(){
+      padding-top: 32px;
+      padding-bottom: 26px;
+      line-height: 100%;
+    }
     i{
       float: right;
       position: relative;
       top: 9px;
       left: 15px;
+      @include ie-browser(){
+        top: -2px;
+      }
     }
   }
   .btn--links:hover,
@@ -770,18 +812,33 @@ h4:after{
     font-size: 15px;
     display: block;
     margin-bottom: 15px;
+    padding-left: 10px;
   }
   .foot--address{
     font-size: 12px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    @include ie-browser(){
+      margin-bottom: 13px;
+    }
   }
 }
 .foot--logo{
   padding: 0;
   margin-right: 5px;
-  min-height: 129px;
+  min-height: 132px;
   position: relative;
   width: 48.333333%;
   float: left;
+  text-align: center;
+  padding-right: 20px;
+  a{
+    img{
+      &:hover{
+        opacity: 0.75;
+      }
+    }
+  }
 }
 .foot--button{
   display: block;
@@ -789,6 +846,9 @@ h4:after{
   text-align: center;
   color: $color_white;
   @include border-radius(5px);
+  &:hover{
+    opacity: 0.75;
+  }
 }
 .foot--button:hover,
 .foot--button:visited{
@@ -800,9 +860,15 @@ h4:after{
   position: absolute;
   width: 100%;
   bottom: 3px;
+  @include ie-browser(){
+    padding-bottom: 1px;
+  }
 }
 .phone--foot{
   background-color: $color_yellow;
+  @include ie-browser(){
+    padding-bottom: 2px;
+  }
 }
 .site-info{
   background-color: $color_dark_blue;
@@ -812,4 +878,13 @@ h4:after{
     text-align: center;
     color: $color_white;
   }
+}
+.mb-90{
+  margin-bottom: 90px;
+}
+.mb-110{
+  margin-bottom: 110px;
+}
+.date--links{
+  margin-top: 20px;
 }
