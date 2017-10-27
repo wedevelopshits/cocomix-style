@@ -46,6 +46,10 @@
     .single--page_navigation a {
       padding: 10px 12px;
       margin-bottom: 15px; }
+      .single--page_navigation a p {
+        font-size: 16px; }
+      .single--page_navigation a span {
+        font-size: 14px; }
 
   .container--interview {
     margin: 0 14%; }
