@@ -3,7 +3,9 @@
 
 @media screen and (max-width: 1024px) {
   .footer--socials .footer--socials_content {
-    padding-bottom: 70px; } }
+    padding-bottom: 70px; }
+  .footer--socials .page_top {
+    bottom: 10px; } }
 @media screen and (max-width: 767px) {
   body {
     font-size: 18px; }
