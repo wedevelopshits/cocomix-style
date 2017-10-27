@@ -56,7 +56,8 @@
     margin-bottom: 5em; }
     .single--page_navigation a {
       padding: 10px 12px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-size: 14px; }
 
   .container--interview {
     margin: 0 14%; }
