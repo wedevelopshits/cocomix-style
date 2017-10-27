@@ -42,7 +42,7 @@
       width: 100%;
       font-size: 16px; }
     .event-new_arrrival li .new--arrival_list span {
-      font-size: 14px; }
+      font-size: 14px !important; }
 
   .single--page_navigation {
     margin-bottom: 5em; }
