@@ -98,7 +98,7 @@ a{
 }
 .contact--btn{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 90px;
   a{
     img{
       &:hover{
@@ -610,6 +610,7 @@ a{
 }
 .event--entry{
   font-size: 25px;
+  margin-top: 10px;
 }
 .entry-content{
   img{
@@ -692,7 +693,7 @@ a{
 }
 
 .single--page_navigation{
-  margin-top: 10em;
+  margin-top: 110px;
   a{
     @extend .button--show_more;
     float: none;
@@ -721,6 +722,7 @@ a{
   li{
     padding: 10px 5px;
     border-bottom: 1px dashed $color_dark;
+    position: relative;
     &:hover{
       opacity: 0.75;
     }
@@ -749,6 +751,9 @@ a{
         float: right;
         margin-right: 10px;
         font-size: 10px;
+        position: absolute;
+        bottom: 5px;
+        right: 0px;
       }
     }
   }

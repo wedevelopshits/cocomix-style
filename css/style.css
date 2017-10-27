@@ -134,7 +134,7 @@ a img:hover {
 
 .contact--btn {
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 90px; }
   .contact--btn a img:hover {
     opacity: 0.75; }
 
@@ -581,7 +581,8 @@ a img:hover {
     height: 100%; }
 
 .event--entry {
-  font-size: 25px; }
+  font-size: 25px;
+  margin-top: 10px; }
 
 .entry-content img {
   padding: 10px 5px; }
@@ -646,7 +647,7 @@ a img:hover {
         color: #125e9f; }
 
 .single--page_navigation {
-  margin-top: 10em; }
+  margin-top: 110px; }
   .single--page_navigation a {
     float: none; }
   .single--page_navigation .posttype--btn_link {
@@ -667,7 +668,8 @@ a img:hover {
   padding: 0; }
   .event-new_arrrival li {
     padding: 10px 5px;
-    border-bottom: 1px dashed #262626; }
+    border-bottom: 1px dashed #262626;
+    position: relative; }
     .event-new_arrrival li:hover {
       opacity: 0.75; }
     .event-new_arrrival li .new--arrival_list a,
@@ -690,7 +692,10 @@ a img:hover {
     .event-new_arrrival li .new--arrival_list span {
       float: right;
       margin-right: 10px;
-      font-size: 10px; }
+      font-size: 10px;
+      position: absolute;
+      bottom: 5px;
+      right: 0px; }
 
 .job--category {
   margin: 0;
