@@ -488,11 +488,18 @@ a{
     width: 30px;
     height: 30px;
     left: 0;
-    top: -5px;
+    top: -10px;
     position: absolute;
   }
   &:after{
     content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 14px;
+    width: 1px;
+    border-left: 1px dashed $color_dark_blue;
+    z-index: -1;
   }
   .flow--section_inner{
     border: 2px solid $color_dark_blue;
@@ -519,6 +526,11 @@ a{
         position: relative;
         top: 6px;
         margin-right: 15px;
+      }
+    }
+    .body--flow{
+      p{
+        font-weight: 700;
       }
     }
   }
