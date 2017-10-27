@@ -135,6 +135,9 @@ a{
       color: $color_white;
       padding: 5px 0;
       display: block;
+      @include ie-browser(){
+        padding-bottom: 3px;
+      }
     }
     a:hover{
       text-decoration: none;
@@ -664,7 +667,17 @@ a{
       display: inline;
       a{
         padding-right: 10px;
-        text-decoration: underline;
+        &:hover{
+          color: #23527c;
+        }
+      }
+      &:first-child{
+        a{
+          text-decoration: underline;
+          &:hover{
+            color: #23527c;
+          }
+        }
       }
       a:after{
         content: "\f105";
@@ -910,6 +923,11 @@ a{
   button{
     &:hover{
       opacity: 0.75;
+    }
+  }
+  button.alm-load-more-btn{
+    @include ie-browser(){
+      line-height: 100%;
     }
   }
 }

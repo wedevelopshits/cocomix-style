@@ -159,6 +159,12 @@ a img:hover {
     color: #fff;
     padding: 5px 0;
     display: block; }
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      .site--navigation_menu li a {
+        padding-bottom: 3px; } }
+    @media screen and (min-width: 0\0) {
+      .site--navigation_menu li a {
+        padding-bottom: 3px; } }
   .site--navigation_menu li a:hover {
     text-decoration: none;
     background-color: #fff;
@@ -620,8 +626,13 @@ a img:hover {
     .breadcrumb .container--inner li {
       display: inline; }
       .breadcrumb .container--inner li a {
-        padding-right: 10px;
+        padding-right: 10px; }
+        .breadcrumb .container--inner li a:hover {
+          color: #23527c; }
+      .breadcrumb .container--inner li:first-child a {
         text-decoration: underline; }
+        .breadcrumb .container--inner li:first-child a:hover {
+          color: #23527c; }
       .breadcrumb .container--inner li a:after {
         content: "\f105";
         display: inline-block;
@@ -842,5 +853,11 @@ a img:hover {
 
 .alm-btn-wrap button:hover {
   opacity: 0.75; }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .alm-btn-wrap button.alm-load-more-btn {
+    line-height: 100%; } }
+@media screen and (min-width: 0\0) {
+  .alm-btn-wrap button.alm-load-more-btn {
+    line-height: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
