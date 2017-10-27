@@ -2,6 +2,9 @@
   display: none !important;
 }
 @media screen and (max-width: 1024px) {
+  .section--blue{
+    margin-top: -1px;
+  }
   .footer--socials{
     .footer--socials_content{
       padding-bottom: 70px;
@@ -36,6 +39,9 @@
   .container-sections{
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .section--blue {
+      margin-top: -3px;
   }
   .container--single--page{
     .row{
@@ -145,7 +151,7 @@
     padding: 0 20px;
   }
   .foot--logo{
-    min-height: 144px;
+    min-height: 146px;
   }
   .foot--button{
     padding: 10px 5px;
