@@ -269,12 +269,12 @@ a img:hover {
     position: relative; }
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
       .event--lists ul li {
-        padding-bottom: 7px;
-        padding-top: 12px; } }
+        padding-bottom: 9px;
+        padding-top: 142px; } }
     @media screen and (min-width: 0\0) {
       .event--lists ul li {
-        padding-bottom: 7px;
-        padding-top: 12px; } }
+        padding-bottom: 9px;
+        padding-top: 142px; } }
     .event--lists ul li p {
       margin: 0;
       width: 100%;
@@ -283,10 +283,10 @@ a img:hover {
       text-overflow: ellipsis; }
       @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         .event--lists ul li p {
-          line-height: 100%; } }
+          line-height: 115%; } }
       @media screen and (min-width: 0\0) {
         .event--lists ul li p {
-          line-height: 100%; } }
+          line-height: 115%; } }
       .event--lists ul li p span {
         display: inline-block;
         width: 110px; }
@@ -479,6 +479,8 @@ a img:hover {
 
 .event--archive_list {
   font-size: 18px; }
+  .event--archive_list:hover {
+    opacity: 0.75; }
   .event--archive_list a {
     color: #262626; }
   .event--archive_list a:hover,
@@ -615,7 +617,7 @@ a img:hover {
 
 .breadcrumb {
   background-color: transparent;
-  font-size: 12px; }
+  font-size: 15px; }
   .breadcrumb .container--inner {
     list-style-type: none;
     margin: 0;
@@ -623,7 +625,11 @@ a img:hover {
     .breadcrumb .container--inner li {
       display: inline; }
       .breadcrumb .container--inner li a {
-        padding-right: 10px; }
+        padding-right: 10px;
+        color: #125e9f;
+        text-decoration: underline; }
+        .breadcrumb .container--inner li a:hover {
+          color: #23527c; }
       .breadcrumb .container--inner li a:after {
         content: "\f105";
         display: inline-block;
@@ -661,6 +667,8 @@ a img:hover {
   .event-new_arrrival li {
     padding: 10px 5px;
     border-bottom: 1px dashed #262626; }
+    .event-new_arrrival li:hover {
+      opacity: 0.75; }
     .event-new_arrrival li .new--arrival_list a,
     .event-new_arrrival li .new--arrival_list a:hover {
       text-decoration: none;
@@ -674,7 +682,10 @@ a img:hover {
     .event-new_arrrival li .new--arrival_list p {
       font-size: 14px;
       margin: 0;
-      padding-top: 5px; }
+      padding-top: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
     .event-new_arrrival li .new--arrival_list span {
       float: right;
       margin-right: 10px;
