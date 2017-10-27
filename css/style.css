@@ -1,21 +1,21 @@
 /*
 Error: Invalid CSS after "...ding: 12px 15px": expected "{", was ";"
-        on line 641 of scss/style.scss
+        on line 642 of scss/style.scss
 
-636: }
 637: 
 638: // modules
 639: .breadcrumb{
 640: <<<<<<< HEAD
-641:   padding: 12px 15px;
-642: =======
-643: >>>>>>> 90c6e4d98543844f86000d17cd32e0d8fcef55eb
-644:   background-color: transparent;
-645:   font-size: 12px;
-646:   .container--inner{
+641: <<<<<<< HEAD
+642:   padding: 12px 15px;
+643: =======
+644: >>>>>>> 90c6e4d98543844f86000d17cd32e0d8fcef55eb
+645: =======
+646: >>>>>>> parent of 99de267... event page layout update pc
+647:   background-color: transparent;
 
 Backtrace:
-scss/style.scss:641
+scss/style.scss:642
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
 C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
@@ -50,4 +50,4 @@ C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...ding: 12px 15px\": expected \"{\", was \";\"\A         on line 641 of scss/style.scss\A \A 636: }\A 637: \A 638: // modules\A 639: .breadcrumb{\A 640: <<<<<<< HEAD\A 641:   padding: 12px 15px;\A 642: =======\A 643: >>>>>>> 90c6e4d98543844f86000d17cd32e0d8fcef55eb\A 644:   background-color: transparent;\A 645:   font-size: 12px;\A 646:   .container--inner{"; }
+  content: "Error: Invalid CSS after \"...ding: 12px 15px\": expected \"{\", was \";\"\A         on line 642 of scss/style.scss\A \A 637: \A 638: // modules\A 639: .breadcrumb{\A 640: <<<<<<< HEAD\A 641: <<<<<<< HEAD\A 642:   padding: 12px 15px;\A 643: =======\A 644: >>>>>>> 90c6e4d98543844f86000d17cd32e0d8fcef55eb\A 645: =======\A 646: >>>>>>> parent of 99de267... event page layout update pc\A 647:   background-color: transparent;"; }
