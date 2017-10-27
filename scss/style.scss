@@ -40,7 +40,7 @@ a{
   float: right;
   display: inline-block;
   @include border-radius(5px);
-  @include ie-browser(){
+  @include ie-browser{
     padding-bottom: 7px;
   }
 }
@@ -266,9 +266,9 @@ a{
       padding: 10px 40px;
       border-bottom: 1px dashed $color_dark;
       position: relative;
-      @include ie-browser(){
-        padding-bottom: 7px;
-        padding-top: 12px;
+      @include ie-browser{
+        padding-bottom: 9px;
+        padding-top: 142px;
       }
       p{
         margin: 0;
@@ -276,8 +276,8 @@ a{
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        @include ie-browser(){
-          line-height: 100%;
+        @include ie-browser{
+          line-height: 115%;
         }
         span{
           display: inline-block;
@@ -300,7 +300,7 @@ a{
       position: absolute;
       left: 25px;
       top: 12px;
-      @include ie-browser(){
+      @include ie-browser{
         top: 7px;
       }
     }
@@ -348,7 +348,7 @@ a{
       text-decoration: none;
       opacity: 0.75;
     }
-    @include ie-browser(){
+    @include ie-browser{
       padding-top: 32px;
       padding-bottom: 26px;
       line-height: 100%;
@@ -358,7 +358,7 @@ a{
       position: relative;
       top: 9px;
       left: 15px;
-      @include ie-browser(){
+      @include ie-browser{
         top: -2px;
       }
     }
@@ -492,6 +492,9 @@ a{
 }
 .event--archive_list{
   font-size: 18px;
+  &:hover{
+    opacity: 0.75;
+  }
   a{
     color: $color_dark;
   }
@@ -657,7 +660,7 @@ a{
 // modules
 .breadcrumb{
   background-color: transparent;
-  font-size: 12px;
+  font-size: 15px;
   .container--inner{
     list-style-type: none;
     margin: 0;
@@ -837,7 +840,7 @@ a{
     font-size: 12px;
     padding-left: 10px;
     margin-bottom: 10px;
-    @include ie-browser(){
+    @include ie-browser{
       margin-bottom: 13px;
     }
   }
@@ -879,13 +882,13 @@ a{
   position: absolute;
   width: 100%;
   bottom: 3px;
-  @include ie-browser(){
+  @include ie-browser{
     padding-bottom: 1px;
   }
 }
 .phone--foot{
   background-color: $color_yellow;
-  @include ie-browser(){
+  @include ie-browser{
     padding-bottom: 2px;
   }
 }
