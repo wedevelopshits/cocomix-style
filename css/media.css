@@ -33,6 +33,12 @@
     margin-left: 0;
     margin-right: 0; }
 
+  .container--single--page .content-area {
+    padding-right: 0px; }
+
+  .event-new_arrrival li .new--arrival_list p {
+    width: 100%; }
+
   .single--page_navigation {
     margin-bottom: 5em; }
     .single--page_navigation a {

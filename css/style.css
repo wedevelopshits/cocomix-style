@@ -135,14 +135,15 @@ a img:hover {
 .contact--btn {
   text-align: center;
   margin-top: 90px; }
-  .contact--btn a img:hover {
-    opacity: 0.75; }
+  .contact--btn a {
+    display: inline-block; }
+    .contact--btn a img:hover {
+      opacity: 0.75; }
 
 .header--contact {
   float: right;
   margin-top: 10px; }
 
-.contact--btn a,
 .header--contact a {
   display: block; }
 
@@ -608,7 +609,7 @@ a img:hover {
 
 .event--entry {
   font-size: 25px;
-  margin-top: 10px; }
+  margin-top: 25px; }
 
 .entry-content img {
   padding: 10px 5px; }
@@ -677,7 +678,7 @@ a img:hover {
   .single--page_navigation a {
     float: none; }
   .single--page_navigation .posttype--btn_link {
-    margin: 0 15px;
+    margin: 0 25px;
     background-color: #74c2fa;
     border-color: #74c2fa;
     color: #fff; }
@@ -686,7 +687,8 @@ a img:hover {
     color: #fff; }
 
 .widget-title {
-  font-size: 20px; }
+  font-size: 20px;
+  margin-top: 25px; }
 
 .event-new_arrrival {
   list-style-type: none;
@@ -707,7 +709,7 @@ a img:hover {
       width: 60px;
       background-color: #e2e2e2;
       float: left;
-      margin-right: 5px; }
+      margin-right: 10px; }
     .event-new_arrrival li .new--arrival_list p {
       font-size: 14px;
       margin: 0;
@@ -722,6 +724,12 @@ a img:hover {
       position: absolute;
       bottom: 5px;
       right: 0px; }
+
+.container--single--page .content-area {
+  padding-right: 40px; }
+
+.single--event_content {
+  margin-top: 2.75em; }
 
 .job--category {
   margin: 0;
@@ -887,5 +895,3 @@ a img:hover {
 
 .test {
   font-size: 12px; }
-
-/*# sourceMappingURL=style.css.map */
