@@ -63,7 +63,7 @@ a img:hover {
   opacity: 0.75; }
 
 .button--show_more, .single--page_navigation a {
-  padding: 10px 40px;
+  padding: 10px 30px;
   border: 1px solid #146db9;
   color: #146db9;
   float: right;

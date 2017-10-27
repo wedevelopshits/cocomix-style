@@ -36,8 +36,10 @@
   .container--single--page .content-area {
     padding-right: 0px; }
 
-  .event-new_arrrival li .new--arrival_list p {
-    width: 100%; }
+  .event-new_arrrival li {
+    padding-bottom: 15px; }
+    .event-new_arrrival li .new--arrival_list p {
+      width: 100%; }
 
   .single--page_navigation {
     margin-bottom: 5em; }
