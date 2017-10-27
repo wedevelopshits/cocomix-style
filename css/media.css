@@ -42,13 +42,14 @@
       width: 100%;
       font-size: 16px; }
     .event-new_arrrival li .new--arrival_list span {
-      font-size: 14px; }
+      font-size: 14px !important;
+      bottom: 2px; }
 
   .single--page_navigation {
     margin-bottom: 5em; }
     .single--page_navigation a {
       padding: 10px 12px;
-      margin-bottom: 15px; }
+      margin-bottom: 20px; }
 
   .container--interview {
     margin: 0 14%; }
