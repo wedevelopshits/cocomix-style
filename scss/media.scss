@@ -5,6 +5,9 @@
 
 }
 @media screen and (max-width: 767px) {
+  body{
+    font-size: 17px;
+  }
   .sp--view{
     display: block !important;
   }
@@ -132,7 +135,7 @@
     padding: 0 20px;
   }
   .foot--logo{
-    min-height: 136px;
+    min-height: 140px;
   }
   .foot--button{
     padding: 10px 5px;
@@ -152,12 +155,15 @@
   }
   .foot--address_text{
     .foot--address{
-      margin-bottom: 8px;
+      margin-bottom: 12px;
     }
   }
   .footer--socials{
     .footer--socials_content{
       padding-bottom: 65px;
     }
+  }
+  .site-info{
+    padding: 25px 0;
   }
 }
