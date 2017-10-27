@@ -486,6 +486,9 @@ a{
 }
 .event--archive_list{
   font-size: 18px;
+  &:hover{
+    opacity: 0.75;
+  }
   a{
     color: $color_dark;
   }
@@ -650,6 +653,7 @@ a{
 
 // modules
 .breadcrumb{
+  padding: 12px 15px;
   background-color: transparent;
   font-size: 12px;
   .container--inner{

@@ -473,6 +473,8 @@ a img:hover {
 
 .event--archive_list {
   font-size: 18px; }
+  .event--archive_list:hover {
+    opacity: 0.75; }
   .event--archive_list a {
     color: #262626; }
   .event--archive_list a:hover,
@@ -608,6 +610,7 @@ a img:hover {
     line-height: 2; }
 
 .breadcrumb {
+  padding: 12px 15px;
   background-color: transparent;
   font-size: 12px; }
   .breadcrumb .container--inner {
