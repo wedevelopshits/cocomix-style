@@ -476,6 +476,13 @@ a{
     padding: 20px 15px 0;
   }
 }
+.flow--section_inner{
+  padding-left: 3em;
+  &:before{
+    background-image: ('../images/flow_circle.png');
+    background-position: top;
+  }
+}
 
 // archive page
 .event--post{
