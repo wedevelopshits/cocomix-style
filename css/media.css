@@ -37,14 +37,18 @@
     padding-right: 0px; }
 
   .event-new_arrrival li {
-    padding-bottom: 15px; }
+    padding-bottom: 15px !important; }
     .event-new_arrrival li .new--arrival_list p {
-      width: 100%; }
+      width: 100%;
+      font-size: 16px; }
+    .event-new_arrrival li .new--arrival_list span {
+      font-size: 14px; }
 
   .single--page_navigation {
     margin-bottom: 5em; }
     .single--page_navigation a {
-      padding: 10px 12px; }
+      padding: 10px 12px;
+      margin-bottom: 15px; }
 
   .container--interview {
     margin: 0 14%; }
