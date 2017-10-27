@@ -470,7 +470,8 @@ a img:hover {
 .flow--section_inner {
   padding-left: 3em; }
   .flow--section_inner:before {
-    background-image: "../images/flow_circle.png";
+    content: "";
+    background-image: url("../images/flow_circle.png");
     background-position: top; }
 
 .event--post {
