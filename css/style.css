@@ -618,7 +618,7 @@ a img:hover {
     line-height: 2; }
 
 .breadcrumb {
-  padding: 15px;
+  padding: 12px 15px;
   background-color: transparent;
   font-size: 12px; }
   .breadcrumb .container--inner {
