@@ -22,6 +22,9 @@
   .styled--text_banner {
     font-size: 25px; }
 
+  .event--single_banner {
+    padding-top: 46px; }
+
   .section--content,
   .event--area,
   .footer--socials,
