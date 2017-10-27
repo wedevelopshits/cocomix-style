@@ -735,14 +735,14 @@ a{
         background-color: $color_gray;
         float: left;
         margin-right: 5px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
       }
       p{
         font-size: 14px;
         margin: 0;
         padding-top: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
       span{
         float: right;

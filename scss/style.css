@@ -678,14 +678,14 @@ a img:hover {
       width: 60px;
       background-color: #e2e2e2;
       float: left;
-      margin-right: 5px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis; }
+      margin-right: 5px; }
     .event-new_arrrival li .new--arrival_list p {
       font-size: 14px;
       margin: 0;
-      padding-top: 5px; }
+      padding-top: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
     .event-new_arrrival li .new--arrival_list span {
       float: right;
       margin-right: 10px;
