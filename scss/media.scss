@@ -42,6 +42,14 @@
   }
   .section--blue {
       margin-top: -3px;
+      p{
+        font-size: 16px;
+      }
+  }
+  .section--header{
+    span{
+      font-size: 15px;
+    }
   }
   .container--single--page{
     .row{
@@ -151,7 +159,7 @@
     padding: 0 20px;
   }
   .foot--logo{
-    min-height: 146px;
+    min-height: 162px;
   }
   .foot--button{
     padding: 10px 5px;
@@ -170,8 +178,13 @@
     }
   }
   .foot--address_text{
+    .foot--title{
+      font-size: 17px;;
+
+    }
     .foot--address{
-      margin-bottom: 12px;
+      margin-bottom: 20px;
+      font-size: 14px;
     }
   }
   .footer--socials{
