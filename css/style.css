@@ -629,12 +629,6 @@ a img:hover {
       display: inline; }
       .breadcrumb .container--inner li a {
         padding-right: 10px; }
-        .breadcrumb .container--inner li a:hover {
-          color: #23527c; }
-      .breadcrumb .container--inner li:first-child a {
-        text-decoration: underline; }
-        .breadcrumb .container--inner li:first-child a:hover {
-          color: #23527c; }
       .breadcrumb .container--inner li a:after {
         content: "\f105";
         display: inline-block;

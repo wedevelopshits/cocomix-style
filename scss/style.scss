@@ -668,17 +668,6 @@ a{
       display: inline;
       a{
         padding-right: 10px;
-        &:hover{
-          color: #23527c;
-        }
-      }
-      &:first-child{
-        a{
-          text-decoration: underline;
-          &:hover{
-            color: #23527c;
-          }
-        }
       }
       a:after{
         content: "\f105";
