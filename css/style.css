@@ -161,10 +161,12 @@ a img:hover {
     display: block; }
     @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
       .site--navigation_menu li a {
-        padding-bottom: 3px; } }
+        line-height: 100%;
+        padding: 10px 0; } }
     @media screen and (min-width: 0\0) {
       .site--navigation_menu li a {
-        padding-bottom: 3px; } }
+        line-height: 100%;
+        padding: 10px 0; } }
   .site--navigation_menu li a:hover {
     text-decoration: none;
     background-color: #fff;
@@ -850,14 +852,5 @@ a img:hover {
 
 .date--links {
   margin-top: 20px; }
-
-.alm-btn-wrap button:hover {
-  opacity: 0.75; }
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .alm-btn-wrap button.alm-load-more-btn {
-    line-height: 100%; } }
-@media screen and (min-width: 0\0) {
-  .alm-btn-wrap button.alm-load-more-btn {
-    line-height: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

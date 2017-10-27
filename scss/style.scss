@@ -136,7 +136,8 @@ a{
       padding: 5px 0;
       display: block;
       @include ie-browser(){
-        padding-bottom: 3px;
+        line-height: 100%;
+        padding: 10px 0;
       }
     }
     a:hover{
@@ -918,16 +919,4 @@ a{
 }
 .date--links{
   margin-top: 20px;
-}
-.alm-btn-wrap{
-  button{
-    &:hover{
-      opacity: 0.75;
-    }
-  }
-  button.alm-load-more-btn{
-    @include ie-browser(){
-      line-height: 100%;
-    }
-  }
 }
