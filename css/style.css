@@ -134,7 +134,7 @@ a img:hover {
 
 .contact--btn {
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 90px; }
   .contact--btn a img:hover {
     opacity: 0.75; }
 
@@ -467,12 +467,32 @@ a img:hover {
   .work--section .work--section_description {
     padding: 20px 15px 0; }
 
-.flow--section_inner {
-  padding-left: 3em; }
-  .flow--section_inner:before {
+.flow--section {
+  padding-left: 5em;
+  position: relative; }
+  .flow--section:before {
     content: "";
     background-image: url("../images/flow_circle.png");
-    background-position: top; }
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -5px;
+    position: absolute; }
+  .flow--section .flow--section_inner {
+    border: 2px solid #125e9f;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    padding: 30px 40px; }
+    .flow--section .flow--section_inner:before {
+      width: 0;
+      height: 0;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+      border-left: 60px solid #125e9f; }
 
 .event--post {
   height: 335px;
@@ -581,7 +601,8 @@ a img:hover {
     height: 100%; }
 
 .event--entry {
-  font-size: 25px; }
+  font-size: 25px;
+  margin-top: 10px; }
 
 .entry-content img {
   padding: 10px 5px; }
@@ -646,7 +667,7 @@ a img:hover {
         color: #125e9f; }
 
 .single--page_navigation {
-  margin-top: 10em; }
+  margin-top: 110px; }
   .single--page_navigation a {
     float: none; }
   .single--page_navigation .posttype--btn_link {
@@ -667,7 +688,8 @@ a img:hover {
   padding: 0; }
   .event-new_arrrival li {
     padding: 10px 5px;
-    border-bottom: 1px dashed #262626; }
+    border-bottom: 1px dashed #262626;
+    position: relative; }
     .event-new_arrrival li:hover {
       opacity: 0.75; }
     .event-new_arrrival li .new--arrival_list a,
@@ -690,7 +712,10 @@ a img:hover {
     .event-new_arrrival li .new--arrival_list span {
       float: right;
       margin-right: 10px;
-      font-size: 10px; }
+      font-size: 10px;
+      position: absolute;
+      bottom: 5px;
+      right: 0px; }
 
 .job--category {
   margin: 0;

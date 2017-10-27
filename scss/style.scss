@@ -98,7 +98,7 @@ a{
 }
 .contact--btn{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 90px;
   a{
     img{
       &:hover{
@@ -476,12 +476,31 @@ a{
     padding: 20px 15px 0;
   }
 }
-.flow--section_inner{
-  padding-left: 3em;
+.flow--section{
+  padding-left: 5em;
+  position: relative;
   &:before{
     content: "";
     background-image: url('../images/flow_circle.png');
     background-position: top;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -5px;
+    position: absolute;
+  }
+  .flow--section_inner{
+    border: 2px solid $color_dark_blue;
+    @include border-radius(10px);
+    padding: 30px 40px;
+    &:before{
+      width: 0;
+      height: 0;
+      border-top: 60px solid transparent;
+      border-bottom: 60px solid transparent;
+      border-left: 60px solid $color_dark_blue;
+    }
   }
 }
 
@@ -610,6 +629,7 @@ a{
 }
 .event--entry{
   font-size: 25px;
+  margin-top: 10px;
 }
 .entry-content{
   img{
@@ -692,7 +712,7 @@ a{
 }
 
 .single--page_navigation{
-  margin-top: 10em;
+  margin-top: 110px;
   a{
     @extend .button--show_more;
     float: none;
@@ -721,6 +741,7 @@ a{
   li{
     padding: 10px 5px;
     border-bottom: 1px dashed $color_dark;
+    position: relative;
     &:hover{
       opacity: 0.75;
     }
@@ -749,6 +770,9 @@ a{
         float: right;
         margin-right: 10px;
         font-size: 10px;
+        position: absolute;
+        bottom: 5px;
+        right: 0px;
       }
     }
   }
