@@ -1,0 +1,115 @@
+.sp--view {
+  display: none !important; }
+
+@media screen and (max-width: 767px) {
+  .sp--view {
+    display: block !important; }
+
+  .pc--view {
+    display: none !important; }
+
+  .still-right {
+    padding: 0; }
+
+  .styled--text_banner {
+    font-size: 25px; }
+
+  .section--content,
+  .event--area,
+  .footer--socials,
+  .container-sections {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .container--single--page .row {
+    margin-left: 0;
+    margin-right: 0; }
+
+  .single--page_navigation {
+    margin-bottom: 5em; }
+    .single--page_navigation a {
+      padding: 10px 12px; }
+
+  .container--interview {
+    margin: 0 14%; }
+
+  .interviewer--pages {
+    padding: 0 30px; }
+    .interviewer--pages img {
+      width: 100%; }
+    .interviewer--pages .intervierwer--entry_content img {
+      width: auto; }
+    .interviewer--pages .intervierwer--entry_content h3,
+    .interviewer--pages .intervierwer--entry_content .last--content {
+      margin-top: 2em; }
+
+  .interviewer--pages .intervierwer--entry h1 {
+    margin-top: 20px; }
+  .interviewer--pages .intervierwer--entry h2 {
+    margin-bottom: 45px; }
+
+  .date--links .btn--links {
+    width: 100%;
+    margin-bottom: 10px; }
+
+  .img--list {
+    margin-bottom: 15px; }
+
+  .row--list img {
+    margin-bottom: 30px; }
+
+  .interviewees--content p {
+    padding: 20px 10px; }
+
+  .interview--circles {
+    margin-bottom: 15px; }
+
+  .event--section {
+    margin-bottom: 30px; }
+
+  .event--lists ul {
+    padding: 0; }
+
+  .single--event_content img {
+    width: 100%; }
+
+  .event-new_arrrival li {
+    padding: 10px; }
+    .event-new_arrrival li .new--arrival_list .thumb--list {
+      margin-right: 15px;
+      display: inline-block; }
+    .event-new_arrrival li .new--arrival_list p {
+      padding-top: 10px;
+      display: inline-block; }
+    .event-new_arrrival li .new--arrival_list span {
+      float: left;
+      display: inline-block;
+      font-size: 12px;
+      margin-top: 12px; }
+
+  .foot-info_con, .foot-social_con {
+    width: 100%; }
+
+  .info--this {
+    padding: 0 20px; }
+
+  .foot--logo {
+    min-height: 136px; }
+
+  .foot--button {
+    padding: 10px 5px; }
+
+  .contact--foot {
+    bottom: 0; }
+
+  .foot-social_con {
+    margin-top: 15px; }
+    .foot-social_con .foot--social_img {
+      text-align: center; }
+      .foot-social_con .foot--social_img img {
+        width: 100%; }
+
+  .foot--address_text .foot--address {
+    margin-bottom: 8px; } }
+
+/*# sourceMappingURL=media.css.map */
