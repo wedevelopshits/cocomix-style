@@ -462,6 +462,11 @@ a img:hover {
       font-size: 20px;
       margin-bottom: 5px; }
 
+.work--section {
+  margin-bottom: 8em; }
+  .work--section .work--section_description {
+    padding: 20px 15px 0; }
+
 .event--post {
   height: 335px;
   overflow: hidden; }
