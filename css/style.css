@@ -626,7 +626,11 @@ a img:hover {
     .breadcrumb .container--inner li {
       display: inline; }
       .breadcrumb .container--inner li a {
-        padding-right: 10px; }
+        padding-right: 10px;
+        color: #125e9f;
+        text-decoration: underline; }
+        .breadcrumb .container--inner li a:hover {
+          color: #23527c; }
       .breadcrumb .container--inner li a:after {
         content: "\f105";
         display: inline-block;
@@ -664,6 +668,8 @@ a img:hover {
   .event-new_arrrival li {
     padding: 10px 5px;
     border-bottom: 1px dashed #262626; }
+    .event-new_arrrival li:hover {
+      opacity: 0.75; }
     .event-new_arrrival li .new--arrival_list a,
     .event-new_arrrival li .new--arrival_list a:hover {
       text-decoration: none;
@@ -677,7 +683,10 @@ a img:hover {
     .event-new_arrrival li .new--arrival_list p {
       font-size: 14px;
       margin: 0;
-      padding-top: 5px; }
+      padding-top: 5px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
     .event-new_arrrival li .new--arrival_list span {
       float: right;
       margin-right: 10px;
