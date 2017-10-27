@@ -283,10 +283,10 @@ a img:hover {
       text-overflow: ellipsis; }
       @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
         .event--lists ul li p {
-          line-height: 100%; } }
+          line-height: 115%; } }
       @media screen and (min-width: 0\0) {
         .event--lists ul li p {
-          line-height: 100%; } }
+          line-height: 115%; } }
       .event--lists ul li p span {
         display: inline-block;
         width: 110px; }

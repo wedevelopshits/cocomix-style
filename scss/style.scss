@@ -277,7 +277,7 @@ a{
         overflow: hidden;
         text-overflow: ellipsis;
         @include ie-browser(){
-          line-height: 100%;
+          line-height: 115%;
         }
         span{
           display: inline-block;
