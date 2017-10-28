@@ -528,8 +528,6 @@ a img:hover {
         position: relative;
         top: 6px;
         margin-right: 15px; }
-    .flow--section .flow--section_inner .body--flow p {
-      font-weight: 700; }
   .flow--section .no--border-radius-left {
     border-top-left-radius: 0; }
 
@@ -930,3 +928,5 @@ a img:hover {
 
 .test {
   font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
