@@ -123,7 +123,7 @@
     padding: 20px 10px; }
 
   .interview--circles {
-    margin-bottom: 15px; }
+    margin-bottom: 30px; }
 
   .event--section {
     margin-bottom: 30px; }
@@ -147,6 +147,13 @@
       display: inline-block;
       font-size: 12px;
       margin-top: 12px; }
+
+  .breadcrumb {
+    font-size: 15px; }
+
+  .container--faq,
+  .container--flow {
+    padding: 0 30px; }
 
   .foot-info_con, .foot-social_con {
     width: 100%; }
@@ -176,10 +183,18 @@
   .footer--socials .footer--socials_content {
     padding-bottom: 65px; }
 
+  .error--content_head {
+    font-size: 24px; }
+
+  .error--content_body {
+    font-size: 16px; }
+
   .site-info {
     padding: 25px 0; } }
 @media screen and (max-width: 599px) {
   .sp--display_contact {
-    display: block; } }
+    display: block; }
+    .sp--display_contact img {
+      height: 51px; } }
 
 /*# sourceMappingURL=media.css.map */

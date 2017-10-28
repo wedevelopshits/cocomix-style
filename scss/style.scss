@@ -39,14 +39,18 @@ a{
   color: $btn_border_color;
   float: right;
   display: inline-block;
+  text-decoration: none;
   @include border-radius(5px);
   @include ie-browser{
     padding-bottom: 7px;
   }
 }
 .button--show_more:hover,
-.button--show_more:visited{
+.button--show_more:visited,
+.button--show_more:focus,
+.button--show_more:active{
   color: $btn_border_color;
+  text-decoration: none;
 }
 .button--show_more:hover{
   text-decoration: none;
@@ -267,8 +271,8 @@ a{
       border-bottom: 1px dashed $color_dark;
       position: relative;
       @include ie-browser{
-        padding-bottom: 9px;
-        padding-top: 142px;
+        padding-bottom: 10px;
+        padding-top: 12px;
       }
       p{
         margin: 0;
@@ -285,10 +289,16 @@ a{
         }
         a{
           color: $color_dark;
+          text-decoration: none;
+        }
+        a:hover{
+          opacity: 0.75;
         }
         a:hover,
-        a:visited{
+        a:visited,
+        a:focus{
           color: $color_dark;
+          text-decoration: none;
         }
       }
     }
@@ -343,6 +353,7 @@ a{
     text-align: center;
     font-size: 25px;
     position: relative;
+    text-decoration: none;
     @include border-radius(10px);
     &:hover{
       text-decoration: none;
@@ -477,6 +488,9 @@ a{
   margin-bottom: 8em;
   .work--section_description{
     padding: 20px 15px 0;
+    p{
+      margin-bottom: 20px;
+    }
   }
 }
 .flow--section{
@@ -571,6 +585,7 @@ a{
   }
   a{
     color: $color_dark;
+    text-decoration: none;
   }
   a:hover,
   a:visited{
@@ -735,7 +750,7 @@ a{
 // modules
 .breadcrumb{
   background-color: transparent;
-  font-size: 15px;
+  font-size: 12px;
   .container--inner{
     list-style-type: none;
     margin: 0;
@@ -744,7 +759,7 @@ a{
       display: inline;
       a{
         padding-right: 10px;
-        color: #125e9f;
+        color: $color_medium_blue;
         text-decoration: underline;
         &:hover{
           color: #23527c;
@@ -771,6 +786,9 @@ a{
     @extend .button--show_more;
     float: none;
   }
+  a{
+    padding: 10px 23px;
+  }
   .posttype--btn_link{
     margin: 0 25px;
     background-color: $color_medium_blue;
@@ -788,6 +806,9 @@ a{
 .widget-title{
   font-size: 20px;
   margin-top: 25px;
+  &:after{
+    top: 30px;
+  }
 }
 .event-new_arrrival{
   list-style-type: none;
@@ -1009,6 +1030,21 @@ a{
 .date--links{
   margin-top: 20px;
 }
-.test{
-  font-size: 12px;
+.last--work{
+  margin-bottom: 0;
+}
+// 404 page
+.error--content_head{
+  text-align: center;
+  margin-bottom:15px;
+  font-size:25px;
+  padding: 0 30px;
+}
+.error--content_body{
+  text-align: center;
+  padding: 0 30px;
+}
+// to style 2
+.container--work_hack{
+  margin: 6em 0 0 !important;
 }

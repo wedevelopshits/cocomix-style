@@ -168,7 +168,7 @@
     }
   }
   .interview--circles{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
   .event--section{
     margin-bottom: 30px;
@@ -204,6 +204,15 @@
       }
     }
   }
+  .breadcrumb{
+    font-size: 15px;
+  }
+  // flow/faq
+  .container--faq,
+  .container--flow{
+    padding: 0 30px;
+  }
+  // end
 
   .foot-info_con{
     width: 100%;
@@ -240,6 +249,12 @@
       padding-bottom: 65px;
     }
   }
+  .error--content_head{
+    font-size: 24px;
+  }
+  .error--content_body{
+    font-size: 16px;
+  }
   .site-info{
     padding: 25px 0;
   }
@@ -247,5 +262,8 @@
 @media screen and (max-width: 599px) {
   .sp--display_contact{
     display: block;
+    img{
+      height: 51px;
+    }
   }
 }
