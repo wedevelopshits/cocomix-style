@@ -258,6 +258,13 @@
   .site-info{
     padding: 25px 0;
   }
+
+  // style to hack
+  .container--faq{
+    .accordion{
+      padding: 10px 40px 10px 15px !important;
+    }
+  }
 }
 @media screen and (max-width: 599px) {
   .sp--display_contact{

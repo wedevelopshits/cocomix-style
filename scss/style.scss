@@ -226,6 +226,10 @@ a{
 .section--header--top-page{
   margin-bottom: 50px;
 }
+.interview--page img,
+.benefit--page img{
+  width: 100%;
+}
 .interviewees--list{
   padding: 0 30px;
 }
@@ -1047,4 +1051,13 @@ a{
 // to style 2
 .container--work_hack{
   margin: 6em 0 0 !important;
+}
+.active--pagetop{
+  position: fixed !important;
+  bottom: 60px !important;
+}
+.toggled{
+  ._menu-main-menu-container{
+    height: 100%;
+  }
 }
