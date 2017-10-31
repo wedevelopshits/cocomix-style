@@ -132,6 +132,8 @@ a img:hover {
   padding: 20px 0; }
   .site--header_main .custom-logo-link {
     float: left; }
+    .site--header_main .custom-logo-link img {
+      width: 116px; }
   .site--header_main .site-description {
     float: left;
     margin: 35px 0px 0px 20px;
@@ -896,8 +898,10 @@ a img:hover {
   float: left;
   text-align: center;
   padding-right: 20px; }
-  .foot--logo a img:hover {
-    opacity: 0.75; }
+  .foot--logo a img {
+    width: 116px; }
+    .foot--logo a img:hover {
+      opacity: 0.75; }
 
 .foot--button {
   display: block;
@@ -970,11 +974,27 @@ a img:hover {
 .container--work_hack {
   margin: 6em 0 0 !important; }
 
+.page_top {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  z-index: 1;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px; }
+  .page_top:hover, .page_top:active, .page_top:visited, .page_top:focus {
+    text-decoration: none; }
+  .page_top i {
+    font-size: 25px; }
+
 .active--pagetop {
-  position: fixed !important;
-  bottom: 60px !important; }
+  position: fixed;
+  bottom: 60px; }
 
 .toggled ._menu-main-menu-container {
   height: 100%; }
+
+.link--hover:hover {
+  opacity: 0.75; }
 
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,9 @@
 
   .section--blue {
     margin-top: -3px; } }
+@media screen and (max-width: 768px) {
+  .footer--socials .page_top {
+    bottom: 50px; } }
 @media screen and (max-width: 767px) {
   body {
     font-size: 18px; }
@@ -162,7 +165,7 @@
     padding: 0 20px; }
 
   .foot--logo {
-    min-height: 144px; }
+    min-height: 156px; }
 
   .foot--button {
     padding: 10px 5px; }
@@ -177,7 +180,10 @@
       .foot-social_con .foot--social_img img {
         width: 100%; }
 
+  .foot--address_text .foot--title {
+    font-size: 17px; }
   .foot--address_text .foot--address {
+    font-size: 14px;
     margin-bottom: 12px; }
 
   .footer--socials .footer--socials_content {
@@ -191,6 +197,12 @@
 
   .site-info {
     padding: 25px 0; }
+
+  .footer--socials .page_top {
+    bottom: 90px;
+    line-height: 15px; }
+    .footer--socials .page_top i {
+      font-size: 20px; }
 
   .container--faq .accordion {
     padding: 10px 40px 10px 15px !important; } }
