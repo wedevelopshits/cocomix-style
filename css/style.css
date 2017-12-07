@@ -62,6 +62,45 @@ h4:after {
 a img:hover {
   opacity: 0.75; }
 
+.button--nostyle {
+  border: none;
+  background-color: transparent;
+  padding: 0; }
+  .button--nostyle:hover {
+    opacity: 0.7; }
+  .button--nostyle:focus {
+    outline: transparent; }
+  .button--nostyle img {
+    margin: 0; }
+
+.button--style {
+  text-decoration: none;
+  background-color: #f2b403;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  width: 39.88888%;
+  border: none;
+  border-radius: 0;
+  padding: 20.3px 0;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: 10px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer; }
+  .button--style:hover, .button--style:visited, .button--style:focus, .button--style:active {
+    color: #fff;
+    background-color: #f2b403;
+    border: none;
+    text-decoration: none; }
+  .button--style:hover {
+    opacity: 0.7; }
+
+.confirming--btn {
+  display: none; }
+
 .button--show_more, .single--page_navigation a {
   padding: 10px 30px;
   border: 1px solid #146db9;
@@ -848,6 +887,20 @@ a img:hover {
       text-decoration: none; }
     .job--category li .sub--category li:last-child a {
       border-bottom: none; }
+
+.contact--single-style {
+  margin: 0 !important;
+  float: left;
+  width: 100% !important;
+  padding-left: 0 !important; }
+  .contact--single-style table {
+    margin-top: 0 !important; }
+
+.contact--send {
+  margin-bottom: 1.5em; }
+
+.fieldhide {
+  display: none; }
 
 .site-footer {
   margin-top: 10em; }

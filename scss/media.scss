@@ -282,6 +282,13 @@
     }
   }
 }
+@media only screen and (max-width: 600px){
+  .button--style{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
 @media screen and (max-width: 599px) {
   .sp--display_contact{
     display: block;
